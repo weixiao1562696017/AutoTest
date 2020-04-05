@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupOnClass">
+    <test name="runAll">
+        <classes>
+            <class name="com.study.groups.GroupOnClass1"/>
+            <class name="com.study.groups.GroupOnClass2"/>
+            <class name="com.study.groups.GroupOnClass3"/>
+        </classes>
+    </test>
+    <!--只执行GroupOnClass1、GroupOnClass2中的方法-->
+    <test name="runOnlyStudent">
+        <groups>
+            <run>
+                <include name="student"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.study.groups.GroupOnClass1"/>
+            <class name="com.study.groups.GroupOnClass2"/>
+            <class name="com.study.groups.GroupOnClass3"/>
+        </classes>
+    </test>
+</suite>

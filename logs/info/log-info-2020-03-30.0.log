@@ -1,0 +1,145 @@
+2020-03-30 15:15:55.233 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 on PC-20191128LVCN with PID 8232 (D:\git-repository\AutoTest\chapter13\target\classes started by Haley in D:\git-repository\AutoTest)
+2020-03-30 15:15:55.233 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-03-30 15:15:56.108 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-03-30 15:15:56.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:15:56.123 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 15:15:56.123 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 15:15:56.170 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 15:15:56.170 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 890 ms
+2020-03-30 15:15:56.483 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 15:15:56.530 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 15:15:56.608 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 15:15:56.608 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 15:15:56.623 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 15:15:56.639 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:15:56.842 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-03-30 15:15:56.842 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 1.98 seconds (JVM running for 2.7)
+2020-03-30 15:16:51.914 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 15:16:51.915 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 15:16:51.921 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 15:18:23.762 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 on PC-20191128LVCN with PID 3252 (D:\git-repository\AutoTest\chapter13\target\classes started by Haley in D:\git-repository\AutoTest)
+2020-03-30 15:18:23.762 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-03-30 15:18:24.736 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-03-30 15:18:24.736 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:18:24.736 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 15:18:24.736 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 15:18:24.783 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 15:18:24.783 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 989 ms
+2020-03-30 15:18:25.095 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 15:18:25.142 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 15:18:25.220 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 15:18:25.220 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 15:18:25.236 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 15:18:25.251 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:18:25.454 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-03-30 15:18:25.454 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 1.997 seconds (JVM running for 2.584)
+2020-03-30 15:18:34.093 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 15:18:34.095 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 15:18:34.100 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 15:20:41.362 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 on PC-20191128LVCN with PID 10468 (D:\git-repository\AutoTest\chapter13\target\classes started by Haley in D:\git-repository\AutoTest)
+2020-03-30 15:20:41.362 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-03-30 15:20:42.315 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-03-30 15:20:42.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:20:42.315 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 15:20:42.315 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 15:20:42.378 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 15:20:42.378 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 985 ms
+2020-03-30 15:20:42.690 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 15:20:42.737 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 15:20:42.815 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 15:20:42.831 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 15:20:42.846 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 15:20:42.862 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:20:43.050 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-03-30 15:20:43.065 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 2.003 seconds (JVM running for 2.569)
+2020-03-30 15:20:47.145 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 15:20:47.146 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 15:20:47.152 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-30 15:21:28.917 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 on PC-20191128LVCN with PID 6440 (D:\git-repository\AutoTest\chapter13\target\classes started by Haley in D:\git-repository\AutoTest)
+2020-03-30 15:21:28.917 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-03-30 15:21:29.797 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-03-30 15:21:29.797 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:21:29.797 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 15:21:29.797 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 15:21:29.860 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 15:21:29.860 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 912 ms
+2020-03-30 15:21:30.157 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 15:21:30.203 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 15:21:30.282 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 15:21:30.297 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 15:21:30.313 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 15:21:30.438 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:21:30.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-03-30 15:21:30.641 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 2.012 seconds (JVM running for 2.594)
+2020-03-30 15:21:37.702 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 15:21:37.704 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 15:21:37.708 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-30 15:22:44.469 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-30 15:22:44.630 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-30 15:25:15.689 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 on PC-20191128LVCN with PID 280 (D:\git-repository\AutoTest\chapter13\target\classes started by Haley in D:\git-repository\AutoTest)
+2020-03-30 15:25:15.705 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-03-30 15:25:16.627 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-03-30 15:25:16.642 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:25:16.642 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 15:25:16.642 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 15:25:16.689 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 15:25:16.689 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 968 ms
+2020-03-30 15:25:16.986 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 15:25:17.033 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 15:25:17.111 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 15:25:17.127 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 15:25:17.142 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 15:25:17.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:25:17.439 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-03-30 15:25:17.439 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 2.035 seconds (JVM running for 2.624)
+2020-03-30 15:25:53.411 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 15:25:53.413 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 15:25:53.418 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 15:26:20.247 [http-nio-8888-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-30 15:26:20.329 [http-nio-8888-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-30 15:26:20.355 [http-nio-8888-exec-9] INFO  com.study.controller.UserManager - 查看到的结果是1
+2020-03-30 15:27:22.542 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 on PC-20191128LVCN with PID 5560 (D:\git-repository\AutoTest\chapter13\target\classes started by Haley in D:\git-repository\AutoTest)
+2020-03-30 15:27:22.542 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-03-30 15:27:23.448 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-03-30 15:27:23.464 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:27:23.464 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 15:27:23.464 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 15:27:23.526 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 15:27:23.526 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 953 ms
+2020-03-30 15:27:23.823 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 15:27:23.870 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 15:27:23.948 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 15:27:23.948 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 15:27:23.964 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 15:27:24.058 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:27:24.261 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-03-30 15:27:24.261 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 2.016 seconds (JVM running for 2.577)
+2020-03-30 15:27:32.329 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 15:27:32.331 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 15:27:32.336 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 15:27:32.385 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-30 15:27:32.466 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-30 15:27:32.492 [http-nio-8888-exec-1] INFO  com.study.controller.UserManager - 查看到的结果是1
+2020-03-30 15:29:50.729 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 on PC-20191128LVCN with PID 5552 (D:\git-repository\AutoTest\chapter13\target\classes started by Haley in D:\git-repository\AutoTest)
+2020-03-30 15:29:50.729 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-03-30 15:29:51.729 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-03-30 15:29:51.729 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:29:51.729 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 15:29:51.729 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 15:29:51.792 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 15:29:51.792 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1016 ms
+2020-03-30 15:29:52.104 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 15:29:52.151 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 15:29:52.229 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 15:29:52.229 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 15:29:52.245 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 15:29:52.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-03-30 15:29:52.542 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-03-30 15:29:52.542 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 2.143 seconds (JVM running for 2.711)
+2020-03-30 15:29:58.418 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 15:29:58.419 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 15:29:58.425 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 15:30:38.166 [http-nio-8888-exec-9] INFO  com.study.controller.UserManager - cookies验证通过
+2020-03-30 15:30:38.187 [http-nio-8888-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-30 15:30:38.268 [http-nio-8888-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-30 15:30:38.298 [http-nio-8888-exec-9] INFO  com.study.controller.UserManager - getUserInfo获取到的用户数量是1

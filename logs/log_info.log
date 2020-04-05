@@ -1,0 +1,16 @@
+2020-04-05 13:30:46.453 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 on PC-20191128LVCN with PID 4252 (D:\git-repository\AutoTest\chapter13\target\classes started by Haley in D:\git-repository\AutoTest)
+2020-04-05 13:30:46.453 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-04-05 13:30:47.952 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-04-05 13:30:47.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-04-05 13:30:47.952 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-05 13:30:47.952 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 13:30:48.030 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-05 13:30:48.030 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1499 ms
+2020-04-05 13:30:48.452 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-05 13:30:48.515 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 13:30:48.640 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 13:30:48.686 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 13:30:48.718 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 13:30:48.858 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-04-05 13:30:48.874 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-04-05 13:30:48.874 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 3.338 seconds (JVM running for 4.398)

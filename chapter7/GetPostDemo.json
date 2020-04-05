@@ -1,0 +1,62 @@
+[
+  {
+    "description": "模拟没有参数get请求",
+    "request": {
+      "uri": "/get/demo",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "没有参数的get请求"
+    }
+  },
+  {
+    "description": "模拟有参数的get请求",
+    "request": {
+      "uri": "/get/param",
+      "method": "get",
+      "queries": {
+        "name": "zhangsan",
+        "age": "10"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "zhangsan回来了！"
+    }
+  },
+  {
+    "description": "模拟没有参数post请求",
+    "request": {
+      "uri": "/post/demo",
+      "method": "post"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "没有参数的post请求"
+    }
+  },
+  {
+    "description": "模拟有参数post请求",
+    "request": {
+      "uri": "/post/param",
+      "method": "post",
+      "forms": {
+        "name": "zhangsan",
+        "age": "12"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "有参数的post请求"
+    }
+  }
+]

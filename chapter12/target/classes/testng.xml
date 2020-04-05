@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="用户管理系统套件测试">
+    <test name="用户管理系统测试登陆接口用例">
+        <classes>
+            <class name="com.study.cases.LoginTest">
+                <methods>
+                    <include name="loginTrue"/>
+                    <include name="loginFalse"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.study.config.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>

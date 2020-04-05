@@ -1,0 +1,17 @@
+2020-04-05 13:34:51.729 [main] INFO  com.study.ApplicationChapter13 - Starting ApplicationChapter13 v1.0-SNAPSHOT on PC-20191128LVCN with PID 4872 (D:\git-repository\AutoTest\chapter13\target\chapter13-1.0-SNAPSHOT.jar started by Haley in D:\git-repository\AutoTest\chapter13\target)
+2020-04-05 13:34:51.745 [main] INFO  com.study.ApplicationChapter13 - The following profiles are active: dev
+2020-04-05 13:34:52.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-04-05 13:34:53.010 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-04-05 13:34:53.010 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-05 13:34:53.041 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 13:34:53.088 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-05 13:34:53.088 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1312 ms
+2020-04-05 13:34:53.588 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-05 13:34:53.666 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 13:34:53.854 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 13:34:53.885 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 13:34:53.900 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 13:34:54.072 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-04-05 13:34:54.103 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-04-05 13:34:54.103 [main] INFO  com.study.ApplicationChapter13 - Started ApplicationChapter13 in 2.827 seconds (JVM running for 3.177)
+2020-04-05 13:35:25.540 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

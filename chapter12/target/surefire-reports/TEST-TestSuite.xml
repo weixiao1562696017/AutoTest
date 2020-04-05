@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.625" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\git-repository\AutoTest\chapter12\target\test-classes;D:\git-repository\AutoTest\chapter12\target\classes;D:\maven-repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven-repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\maven-repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\maven-repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;D:\maven-repository\org\testng\testng\6.10\testng-6.10.jar;D:\maven-repository\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\maven-repository\org\json\json\20170516\json-20170516.jar;D:\maven-repository\org\mybatis\mybatis\3.5.0\mybatis-3.5.0.jar;D:\maven-repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar;D:\maven-repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;D:\maven-repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\maven-repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\maven-repository\org\xerial\sqlite-jdbc\3.28.0\sqlite-jdbc-3.28.0.jar;D:\maven-repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;D:\maven-repository\org\mongodb\mongodb-driver\3.11.2\mongodb-driver-3.11.2.jar;D:\maven-repository\org\mongodb\bson\3.11.2\bson-3.11.2.jar;D:\maven-repository\org\mongodb\mongodb-driver-core\3.11.2\mongodb-driver-core-3.11.2.jar;D:\maven-repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\maven-repository\org\apache\httpcomponents\httpmime\4.5.11\httpmime-4.5.11.jar;D:\maven-repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\maven-repository\com\google\guava\guava\20.0\guava-20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\tools\Java\jdk-11.0.6\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire6176103099866863073\surefirebooter16442463480758790941.jar C:\Users\Administrator\AppData\Local\Temp\surefire6176103099866863073 2020-04-05T13-33-09_335-jvmRun1 surefire13256235866416856713tmp surefire_06790515881293860492tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\git-repository\AutoTest\chapter12\target\test-classes;D:\git-repository\AutoTest\chapter12\target\classes;D:\maven-repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven-repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\maven-repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\maven-repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;D:\maven-repository\org\testng\testng\6.10\testng-6.10.jar;D:\maven-repository\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\maven-repository\org\json\json\20170516\json-20170516.jar;D:\maven-repository\org\mybatis\mybatis\3.5.0\mybatis-3.5.0.jar;D:\maven-repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar;D:\maven-repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;D:\maven-repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\maven-repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\maven-repository\org\xerial\sqlite-jdbc\3.28.0\sqlite-jdbc-3.28.0.jar;D:\maven-repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;D:\maven-repository\org\mongodb\mongodb-driver\3.11.2\mongodb-driver-3.11.2.jar;D:\maven-repository\org\mongodb\bson\3.11.2\bson-3.11.2.jar;D:\maven-repository\org\mongodb\mongodb-driver-core\3.11.2\mongodb-driver-core-3.11.2.jar;D:\maven-repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\maven-repository\org\apache\httpcomponents\httpmime\4.5.11\httpmime-4.5.11.jar;D:\maven-repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\maven-repository\com\google\guava\guava\20.0\guava-20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="D:\tools\Java\jdk-11.0.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\git-repository\AutoTest\chapter12"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire6176103099866863073\surefirebooter16442463480758790941.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="user.name" value="Haley"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="D:\maven-repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="D:\git-repository\AutoTest\chapter12"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\tools\Java\jdk-11.0.6\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\tools\Git\mingw64\bin;D:\tools\Git\usr\bin;C:\Users\Administrator\bin;D:\tools\Xftp 6;D:\tools\Xshell 6;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\tools\Java\jdk-11.0.6\bin;D:\tools\apache-maven-3.6.0\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\tools\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="loginTrue" classname="com.study.cases.LoginTest" time="4.579">
+    <failure message="Connection to http://localhost:8888 refused" type="org.apache.http.conn.HttpHostConnectException">org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8888 refused
+	at com.study.cases.LoginTest.getResult(LoginTest.java:80)
+	at com.study.cases.LoginTest.loginTrue(LoginTest.java:46)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.study.cases.LoginTest.getResult(LoginTest.java:80)
+	at com.study.cases.LoginTest.loginTrue(LoginTest.java:46)
+</failure>
+    <system-out><![CDATA[LoginCase(id=1, userName=zhangsan, password=123456, expected=true)
+http://localhost:8888/v1/login
+]]></system-out>
+    <system-err><![CDATA[Sun Apr 05 13:33:10 CST 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+]]></system-err>
+  </testcase>
+  <testcase name="loginFalse" classname="com.study.cases.LoginTest" time="4.155">
+    <failure message="Connection to http://localhost:8888 refused" type="org.apache.http.conn.HttpHostConnectException">org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8888 refused
+	at com.study.cases.LoginTest.getResult(LoginTest.java:80)
+	at com.study.cases.LoginTest.loginFalse(LoginTest.java:61)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.study.cases.LoginTest.getResult(LoginTest.java:80)
+	at com.study.cases.LoginTest.loginFalse(LoginTest.java:61)
+</failure>
+    <system-out><![CDATA[LoginCase(id=2, userName=zahngsanerro, password=123, expected=false)
+http://localhost:8888/v1/login
+]]></system-out>
+    <system-err><![CDATA[Sun Apr 05 13:33:15 CST 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="param_name">
+    <test name="param">
+        <!--The content of element type "classes" must match "(class*,parameter*)"-->
+        <classes>
+            <class name="com.study.param.ParamTest">
+            <parameter name="name" value="zhangsan"/>
+            <parameter name="age" value="22"/>
+            </class>
+        </classes>
+    </test>
+</suite>
